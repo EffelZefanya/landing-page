@@ -1,5 +1,40 @@
+body{
+    font-family: Roboto;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
 .dark-bg{
     background-color: #1F2937;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.dark-bg ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.dark-bg a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+nav.dark-bg div{
+    margin: auto 20px;
+}
+
+nav.dark-bg div img{
+    width: 20%;
+    padding: 5px;
 }
 
 /* hero */
@@ -11,6 +46,7 @@
 
 .hero-secondary-txt{
     font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header-logo{
