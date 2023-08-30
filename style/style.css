@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body{
-    font-family: Roboto;
+    font-family: 'Roboto';
     display: flex;
     flex-direction: column;
     margin: 0px;
@@ -56,6 +58,9 @@ nav.dark-bg div img{
 
 .btn-color{
     background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
+    color: #F9FAF8;
 }
 
 .header-information{
@@ -74,3 +79,42 @@ nav.dark-bg div img{
     font-style: italic;
     color: #1F2937;
 }
+
+/* section 1 */
+.sect-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sect-1 .texts{
+    padding: 25px;
+    display: flex;
+    flex: 1 1 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.sect-1 .texts *{
+    padding: 10px;
+}
+
+.sect-1 .img-container{
+    display: flex;
+    flex: 2 1 100%;
+    padding: 25px;
+    justify-content: center;
+    align-content: center;
+}
+
+.sect-1 .img-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* responsive */
+@media screen and (max-width: 800px) {
+    .sect-1{
+        flex-wrap: wrap;
+    }
+  }
