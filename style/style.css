@@ -84,6 +84,7 @@ nav.dark-bg div img{
 .sect-1{
     display: flex;
     justify-content: space-between;
+    padding: 2rem 0;
 }
 
 .sect-1 .texts{
@@ -112,9 +113,49 @@ nav.dark-bg div img{
     border-radius: 10px;
 }
 
+/* sect 2 */
+.sect-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px 0;
+}
+
+.sect-2 .card-container{
+    display: flex;
+    gap: 5px;
+    padding: 15px;
+}
+
+.sect-2 .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.sect-2 .card .img-container{
+    display: flex;
+    flex: 1 1 100%;
+    padding: 25px;
+    justify-content: center;
+    align-content: center;
+}
+
+.sect-2 .card .img-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sect-2 .capt{
+    text-align: center;
+}
+
 /* responsive */
 @media screen and (max-width: 800px) {
-    .sect-1{
+    .sect-1,.sect-2 .card-container{
         flex-wrap: wrap;
     }
   }
