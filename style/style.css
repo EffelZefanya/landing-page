@@ -1,19 +1,15 @@
-body{
-    font-family: Roboto;
-}
-
-.dark-background{
+.dark-bg{
     background-color: #1F2937;
 }
 
 /* hero */
-.hero-main-text{
+.hero-main-txt{
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
 }
 
-.hero-secondary-text{
+.hero-secondary-txt{
     font-size: 18px;
 }
 
