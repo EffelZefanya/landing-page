@@ -25,7 +25,7 @@ body{
     height: 100%;
 }
 
-.dark-bg a{
+a{
     text-decoration: none;
     color: #E5E7EB;
 }
@@ -56,10 +56,28 @@ nav.dark-bg div img{
     color: #F9FAF8;
 }
 
-.btn-color{
+.sect-1 button.btn-color{
     background-color: #3882F6;
+    color: #F9FAF8;
     border: none;
     border-radius: 5px;
+}
+
+button.btn-color{
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 10px;
+    color: #F9FAF8;
+    border: white solid 2px;
+    border-radius: 5px;
+}
+
+button.btn-color:hover{
+    background-color: #206be2;
+}
+
+.btn-color{
+    background-color: #3882F6;
     color: #F9FAF8;
 }
 
@@ -131,9 +149,8 @@ nav.dark-bg div img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #e8e8e8;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .sect-2 .card .img-container{
@@ -145,12 +162,63 @@ nav.dark-bg div img{
 }
 
 .sect-2 .card .img-container img{
+    width: 25vh;
+    height: 25vh;
     width: 100%;
     border-radius: 10px;
 }
 
 .sect-2 .capt{
     text-align: center;
+}
+
+/* Section 3 */
+.sect-3{
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+}
+
+.sect-3 .header-information{
+    align-self: flex-end;
+}
+
+/* Section 4 */
+.sect-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    padding: 0 1em;
+}
+
+.sect-4 .contact-box{
+    padding: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10em;
+}
+
+.contact-box .contact-header{
+    font-weight: bolder;
+    font-size: larger;
+    color: white;
+}
+
+.contact-box .contact-caption{
+    color: #F9FAF8;
+}
+
+/* Footer */
+footer.dark-bg{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #F9FAF8;
+    align-items: center;
+    justify-content: center;
 }
 
 /* responsive */
