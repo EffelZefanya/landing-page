@@ -102,7 +102,7 @@ button.btn-color:hover{
 .sect-1{
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0;
+    padding: 2em 5em;
 }
 
 .sect-1 .texts{
@@ -142,7 +142,7 @@ button.btn-color:hover{
 .sect-2 .card-container{
     display: flex;
     gap: 5px;
-    padding: 15px;
+    padding: 1em;
 }
 
 .sect-2 .card{
@@ -151,9 +151,14 @@ button.btn-color:hover{
     align-items: center;
     border-radius: 10px;
     padding: 10px;
+    height: 100%;
+    width: 200px;
 }
 
 .sect-2 .card .img-container{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
     display: flex;
     flex: 1 1 100%;
     padding: 25px;
@@ -166,6 +171,7 @@ button.btn-color:hover{
     height: 25vh;
     width: 100%;
     border-radius: 10px;
+    border: #206be2 solid 3px;
 }
 
 .sect-2 .capt{
@@ -176,7 +182,7 @@ button.btn-color:hover{
 .sect-3{
     display: flex;
     flex-direction: column;
-    padding: 5em;
+    padding: 5em 10em;
 }
 
 .sect-3 .header-information{
@@ -225,5 +231,14 @@ footer.dark-bg{
 @media screen and (max-width: 800px) {
     .sect-1,.sect-2 .card-container{
         flex-wrap: wrap;
+    }
+
+    .sect-1{
+        padding: 5em 0;
+    }
+
+    .sect-3{
+        padding: 5em 2em;
+        gap: 1em;
     }
   }
